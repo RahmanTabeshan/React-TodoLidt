@@ -30,3 +30,64 @@
     text-decoration: line-through ;
     color: #ccc ;
 }
+input {
+    border : 1px solid #ccc ;
+    border-radius: 5px ;
+    padding: 5px 3px ;
+    outline : none ;
+    width: 200px ;
+}
+input:focus {
+    border-color: blueviolet;
+}
+
+.formControl {
+    display: flex ;
+    align-items: center ;
+    justify-content: space-between ;
+    width : 20rem ; 
+    margin-bottom: 20px ;
+}
+.btn {
+    color : #6d28d9 ;
+    background: #fff ;
+    border: 1px solid #6d28d9 ;
+    border-radius: 5px ;
+    outline: none ;
+    padding: 5px 10px ;
+    cursor: pointer ;
+}
+.remove {
+    color: rgb(236, 68, 68);
+    border: 1px solid rgb(236, 68, 68);
+    margin-left: 10px ;
+}
+.add {
+    background: #6d28d9 ;
+    color : #fff ;
+}
+.update {
+    background: #ad87e9 ;
+    color : #fff ;
+}
+.text {
+    font-weight: bold ;
+    cursor : pointer ;
+}
+header {
+    display: flex ;
+    align-items: center ;
+    margin-bottom: 20px ;
+}
+header span {
+    display : flex ;
+    align-items: center ;
+    justify-content: center ;
+    margin-right: 10px ;
+    width : 20px ;
+    height : 20px ;
+    font-size: 14px ;
+    background-color: #d0c7f7;
+    color : #6d28d9 ;
+    border-radius: 50% ;
+}
